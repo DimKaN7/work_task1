@@ -1,0 +1,58 @@
+#modal {
+    position: fixed;
+    z-index: 10;
+    width: 91%;
+    height: 80%;
+}
+
+#modalContent {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+
+#modalContent h1 {
+    font-size: 20px;
+}
+
+#modalContent div {
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+#close {
+    color: Black;
+    float: right;
+    cursor: pointer;
+}
+
+#descriptionInput {
+    width: 100%;
+    outline: none;
+}
+
+#secondBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#thirdBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+#datePicker {
+    width: 100%;
+}
+
+#buttonSaveTask {
+    margin-top: 10px;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}

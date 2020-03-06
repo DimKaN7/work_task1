@@ -1,0 +1,34 @@
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25px;
+    font-size: 13px;
+    color: black;
+}
+
+#buttonAddTask {
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+
+#inputSerch {
+    width: 300px;
+    outline: none;
+    text-align: end;
+    border: 1px solid black;
+}
+
+.menuLabels {
+    padding: 0 10px;
+    height: 25px;
+    background-color: #f2f2f2;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+

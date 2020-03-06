@@ -1,0 +1,45 @@
+.taskContent {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.taskContent span {
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.taskContent span:last-child {
+    border-right: none;
+}
+
+.taskDesc {
+    width: 444px;
+    cursor: pointer;
+}
+
+.taskStatus {
+    width: 114px;
+}
+
+.taskPriority {
+    width: 106px;
+}
+
+.taskEndDate {
+    width: 118px;
+}
+
+.taskFactEndDate {
+    width: 104px;
+}
+
+.taskDelete {
+    width: 120px;
+}
